@@ -1,0 +1,36 @@
+db_params = {
+    'source': {
+        'cmt': {
+            'host': 'everdrive-prod-db-slave.adh8.com',
+            'user': 'everdrive_ro',
+            'password': 'e7A2578Ch3576Ve7L3x5',
+            'dbname': 'everdrive_production',
+            'schema': 'public'
+        },
+        'api': {
+            'host': 'everdrive-api-prod-db-slave.adh8.com',
+            'user': 'ed_api_read_only',
+            'password': '4XnJo3@*8o15',
+            'dbname': 'everdrive_api_prod',
+            'schema': 'public'
+        },
+        'mobile': {
+            'host': 'everdrive-mobile-prod-db.adh8.com',
+            'user': 'ed_mobile_readonly',
+            'password': 'STDmxXKRVVN6dz$y',
+            'dbname': 'everdrive_mobile_production',
+            'schema': 'public'
+        }
+    },
+    'destination': {
+        'host': 'everdrive-analytics-prod.cx0xoibcropp.us-east-1.rds.amazonaws.com',
+        'user': 'everdrive_app',
+        'password': 't8302^4p9R66B$^8mn',
+        'dbname': 'everdrive_production',
+        'schema': {
+            'cmt': 'cmt',
+            'api': 'api',
+            'mobile': 'mobile'
+        }
+    }
+}

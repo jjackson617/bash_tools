@@ -1,0 +1,56 @@
+############################# Variables ####################################
+########################### Clicks Feedback Processor Staging ###################################
+
+### runtime config v2 Script Function Flags ###
+FSTAB_HOST=true
+MOUNT_EBS=true
+SSH_DEPLOY_KEY=false
+COPY_APP_SCRIPTS=true
+ENV_CONFIG=false
+APP_CONFIG=true
+AWS_LOG=false
+RunAS_SUDO=false
+
+### App Vars - change these for each application ###
+# Deployed Application Vars
+ENV="staging"
+APP_NAME="clicks-feedback-processor"
+RunAS="apprunner"
+SSH_KEY_NAME=""
+SERVICE_MODE="STAGING"
+
+# runas id home dir
+RHOME="/evq/apprunner"
+
+# application home dir - code runs here
+AHOME="${RHOME}/${APP_NAME}"
+
+# application end points
+# N/A
+
+### Deploy Cold Script Variables ###
+# use for variables in deploy cold - talk to devops if modifying script #
+COLD_DEPLOY_ERROR_LOG="/tmp/${APP_NAME}-deploy-cold.err"
+
+### App Config Script Variables ###
+# customize as needed for your config script #
+APP_ERROR_LOG="/tmp/${APP_NAME}-config.err"
+
+### Environment Vars - these should not change - talk to devops if changes are needed  ###
+# home directory this script runs in
+SHOME="/home/ubuntu/build"
+ERROR_LOG="/tmp/${APP_NAME}_${ENV}_error.log"
+DATE=`date "+%D-%T"`
+
+# AWS Logging Vars
+AWS_PY=awslogs-agent-setup-v1.0.py
+AWS_CFG=${APP_NAME}-awslogs.cfg
+AWS_LOG_HOME=/var/awslogs/etc
+
+### HOST VARS ###
+HOSTNAME=`hostname`
+IP=`hostname | cut -d "-" -f 2-5 | tr "-" "."`
+
+# Device and Mount Point for primary ebs volume
+DEVICE="/dev/xvdb"
+MOUNT="/evq"

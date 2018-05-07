@@ -1,0 +1,358 @@
+
+leads-return-prod, ami-4a92a320	evqt-tomcatX-v1	2016-02-19T15:37:03.000Z
+
+adh-feeds-prod, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+adh-redirector-prod, ami-10ce367d	EVQT-HVM-NGINX-v2	2016-06-08T17:24:34.000Z
+
+agents-cti-picker-prod, ami-4e1a5d59	16.04-nginx-v2	2016-09-27T18:33:38.000Z
+
+agents-cti-picker-staging, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+agents-cti-prod, ami-bccc3cd1	evqt-supervisor-flask-python-v8	2016-05-27T17:59:14.000Z
+
+agents-cti-prod-2, ami-bccc3cd1	evqt-supervisor-flask-python-v8	2016-05-27T17:59:14.000Z
+
+agents-cti-staging, ami-a4e9e6b3	evqt-supervisor-flask-python-v9	2016-12-14T19:02:25.000Z
+
+agents-cti-staging-2, ami-a4e9e6b3	evqt-supervisor-flask-python-v9	2016-12-14T19:02:25.000Z
+
+agents-feeds-prod, ami-bccc3cd1	evqt-supervisor-flask-python-v8	2016-05-27T17:59:14.000Z
+
+agents-feeds-staging, ami-a4e9e6b3	evqt-supervisor-flask-python-v9	2016-12-14T19:02:25.000Z
+
+ahem-prod, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+ahem-staging, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+asharp-dev, ami-a4e9e6b3	evqt-supervisor-flask-python-v9	2016-12-14T19:02:25.000Z
+
+asharp-prod, ami-01c7f16b	evqt-supervisor-flask-python-v6	2016-02-17T20:07:51.000Z
+
+asharp-staging, ami-a4e9e6b3	evqt-supervisor-flask-python-v9	2016-12-14T19:02:25.000Z
+
+bandit-simulation-staging, ami-04faf613	16.04-lts-v3	2016-12-13T22:50:32.000Z
+
+bi-scripts-prod, ami-b036c6dd	EVQT-HVM-Python27-v2	2016-05-27T19:09:52.000Z
+
+buyer-predictor-prod, ami-4a92a320	evqt-tomcatX-v1	2016-02-19T15:37:03.000Z
+
+call-me-maybe-prod, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+call-me-maybe-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+casper-jamf-prod, ami-82b473ef	evqt-hvm-tomcat8-v2	2016-06-15T16:25:37.000Z
+
+cerberus-prod, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+cerberus-staging, ami-f4c940e2	1604-nginx-passenger-apr10	2017-04-10T14:12:04.000Z
+
+cerberus-worker-staging, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+cheeseshop-master-prod, ami-4e1a5d59	16.04-nginx-v2	2016-09-27T18:33:38.000Z
+
+cheeseshop-public-slave-prod, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+cheeseshop-slave-prod, ami-4e1a5d59	16.04-nginx-v2	2016-09-27T18:33:38.000Z
+
+cheeseshop-staging, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+clicks-feedback-processor-stage, ami-a8b000be	EVQT-1604-JAVA8_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK	2017-03-22T17:46:12.000Z
+
+clicks-util-prod, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+clicks-util-stage, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+credentials-management-prod, ami-a3c1f7c9	ADH-HVM-PyPhusion-R215-v10	2016-02-17T21:13:09.000Z
+
+credentials-management-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+credentials-management-test, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+datascience-notebook-staging, ami-bb47daad	16.04-nginx-v5	2017-04-20T14:43:43.000Z
+
+display-feeds-prod, ami-3cfdce56	evqt-python27-flask-v1	2016-02-22T16:48:29.000Z
+
+display-feeds-staging, ami-3cfdce56	evqt-python27-flask-v1	2016-02-22T16:48:29.000Z
+
+email-carrier-direct-prod, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-carrier-direct-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-leads-api-prod, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-leads-api-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-mailgun-webhook-production, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-mailgun-webhook-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-postmark-webhook-prod, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-postmark-webhook-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-redirector-agent-mailings-productio, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-redirector-nikhat, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-redirector-production, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-redirector-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-reengage-staging, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+email-sendgrid-webhook-prod, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-sendgrid-webhook-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-sparkpost-webhook-production, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-sparkpost-webhook-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+email-webhooks-staging, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+enterprise-bd, ami-4ffb8e58	EVQT-HVM-Python27-v4	2016-09-06T22:14:45.000Z
+
+everdrive-reporting-staging, ami-04faf613	16.04-lts-v3	2016-12-13T22:50:32.000Z
+
+everguide-prod, ami-bb47daad	16.04-nginx-v5	2017-04-20T14:43:43.000Z
+
+everguide-staging, ami-bb47daad	16.04-nginx-v5	2017-04-20T14:43:43.000Z
+
+evqt-accounts-production, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+evqt-accounts-staging, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+evqt-domains-prod, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+evqt-domains-staging, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+evqt-redirector-staging, ami-d00f54ba	adh-14.04-LTS-ami-a1f9bcc4-v3	2016-01-11T21:54:21.000Z
+
+evqt-scraper-staging, ami-98e7e88f	EVQT-HVM-PyVPN-v3	2016-12-14T19:25:17.000Z
+
+feeds-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+geonoc-staging, ami-bb47daad	16.04-nginx-v5	2017-04-20T14:43:43.000Z
+
+hop_on_pop_staging, ami-a016efcd	ADH-HVM-PyPhusion-node5-R216-v3	2016-06-07T16:32:02.000Z
+
+hop_on_pop_v2, ami-a016efcd	ADH-HVM-PyPhusion-node5-R216-v3	2016-06-07T16:32:02.000Z
+
+kerrigan-prod, ami-c27d80af	EVQT-HVM-PyVPN-v2	2016-06-01T19:47:38.000Z
+
+kerrigan-staging, ami-98e7e88f	EVQT-HVM-PyVPN-v3	2016-12-14T19:25:17.000Z
+
+lead-auction-service-prototype-prod, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+lead-auction-service-prototype-staging, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+lead-finder-prod, ami-a016efcd	ADH-HVM-PyPhusion-node5-R216-v3	2016-06-07T16:32:02.000Z
+
+lead-finder-staging, ami-a016efcd	ADH-HVM-PyPhusion-node5-R216-v3	2016-06-07T16:32:02.000Z
+
+lead-reporter-api-prod, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+lead-reporter-api-staging, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+lead-reporter-ui-prod, ami-bb47daad	16.04-nginx-v5	2017-04-20T14:43:43.000Z
+
+lead-reporter-ui-staging, ami-bb47daad	16.04-nginx-v5	2017-04-20T14:43:43.000Z
+
+leads-admin-api-staging, ami-e1fcf3f6	16.04-tomcat8-v3	2016-12-14T20:53:24.000Z
+
+leads-admin-api-test, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+leads-api-staging, 
+
+leads-nondistro-prod-, ami-e1fcf3f6	16.04-tomcat8-v3	2016-12-14T20:53:24.000Z
+
+leads-nondistro-staging, ami-e1fcf3f6	16.04-tomcat8-v3	2016-12-14T20:53:24.000Z
+
+leads-return-staging, ami-97b374fa	evqt-tomcatx-v2	2016-06-15T16:46:16.000Z
+
+leads-route-api-staging, ami-e1fcf3f6	16.04-tomcat8-v3	2016-12-14T20:53:24.000Z
+
+leads-route-api-test, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+looker-prod, ami-b16448a6	looker-1604-v5	2016-11-10T21:20:05.000Z
+
+looker-staging, ami-b16448a6	looker-1604-v5	2016-11-10T21:20:05.000Z
+
+lynx-dev, ami-82df23ef	ADH-HVM-PyPhusion-R230-TAG-v8	2016-06-02T16:57:16.000Z
+
+lynx-dev-sidekiq, ami-82df23ef	ADH-HVM-PyPhusion-R230-TAG-v8	2016-06-02T16:57:16.000Z
+
+lynx-home-prod, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-home-sidekiq-prod, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-home-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-home-staging-sidekiq, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-integ, ami-82df23ef	ADH-HVM-PyPhusion-R230-TAG-v8	2016-06-02T16:57:16.000Z
+
+lynx-integ-sidekiq, ami-82df23ef	ADH-HVM-PyPhusion-R230-TAG-v8	2016-06-02T16:57:16.000Z
+
+lynx-life-prod, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-life-sidekiq-prod, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-life-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-life-staging-sidekiq, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-prod-sidekiq, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-production-v1, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-sidekiq-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+lynx-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+master-ads-prod, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+master-ads-staging, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+media-api-asserter-prod, ami-01c7f16b	evqt-supervisor-flask-python-v6	2016-02-17T20:07:51.000Z
+
+media-api-asserter-staging, ami-2ee1f639	evqt-supervisor-flask-python-v10	2016-12-22T21:49:35.000Z
+
+media-bidder-prod, ami-c4b709d2	EVQT-HVM-Python27-v7	2017-03-27T19:57:07.000Z
+
+media-bidder-staging, ami-c4b709d2	EVQT-HVM-Python27-v7	2017-03-27T19:57:07.000Z
+
+media-scripts-prod, ami-c4b709d2	EVQT-HVM-Python27-v7	2017-03-27T19:57:07.000Z
+
+media-scripts-staging, ami-c4b709d2	EVQT-HVM-Python27-v7	2017-03-27T19:57:07.000Z
+
+newrelic-aws-monitoring-prod, ami-82df23ef	ADH-HVM-PyPhusion-R230-TAG-v8	2016-06-02T16:57:16.000Z
+
+noc-cumsum-production-v6, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+noc-cumsum-staging, ami-b5cb04a3	16.04-nginx-v4	2017-02-13T15:43:39.000Z
+
+optimizer-prod, ami-a2b1ddb4	1604-nginx-passenger-psql-apr10	2017-05-03T17:32:32.000Z
+
+optimizer-staging, ami-a2b1ddb4	1604-nginx-passenger-psql-apr10	2017-05-03T17:32:32.000Z
+
+phonebooth-production, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+pong-prod, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+pong-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+pro-api-integ, ami-0c76071a	ADH-HVM-PyPhusion-R241-TAG-v1	2017-05-11T16:44:09.000Z
+
+pro-ui-integ, ami-0c76071a	ADH-HVM-PyPhusion-R241-TAG-v1	2017-05-11T16:44:09.000Z
+
+product-prod, ami-ecb83efa	ami_product_repo	2017-04-03T14:49:12.000Z
+
+product-staging, ami-ecb83efa	ami_product_repo	2017-04-03T14:49:12.000Z
+
+quotes-production, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+quotes-staging, ami-e3ed84f4	ADH-HVM-PyPhusion-R231-TAG-v1	2016-09-01T16:05:35.000Z
+
+reports-raw-production, 
+
+rtb-bidder-dev, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-bidder-integ, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-bidder-prod, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-bidder-staging, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-perftest-master-staging, ami-bccc3cd1	evqt-supervisor-flask-python-v8	2016-05-27T17:59:14.000Z
+
+rtb-perftest-production, ami-bccc3cd1	evqt-supervisor-flask-python-v8	2016-05-27T17:59:14.000Z
+
+rtb-perftest-slave-staging, ami-bccc3cd1	evqt-supervisor-flask-python-v8	2016-05-27T17:59:14.000Z
+
+rtb-pixel-dev, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-pixel-integ, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-pixel-prod, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-pixel-staging, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-scheduler-dev, ami-f8977fee	ADH-HVM-PyPhusion-R240-TAG-v1	2017-01-18T21:02:35.000Z
+
+rtb-scheduler-integ, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+rtb-scheduler-prod, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+rtb-scheduler-staging, ami-6a16ef07	ADH-HVM-PyPhusion-R215-v14	2016-06-07T16:13:29.000Z
+
+salesforce-cheat-sheet-staging, ami-c4f7f8d3	16.04-nginx-v3	2016-12-14T21:29:11.000Z
+
+secure-feedback-prod, ami-f19baa9b	EVQT-HVM-Tomcat-v1	2016-02-19T17:13:12.000Z
+
+secure-leads-email-prod, ami-79764813	adh-tommail-v2	2016-02-29T19:46:50.000Z
+
+secure-leads-prod, ami-1a22fb0c	secure-leads-prod-030117	2017-03-01T23:01:14.000Z
+
+secure-leads-staging, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+secure-post-development, ami-9183b2fb	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-PERCONA5.6.21 v3	2016-02-19T18:17:37.000Z
+
+secure-post-prod, ami-f50856e2	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-PERCONA5.6.33-v1	2016-10-26T20:11:09.000Z
+
+secure-post-stage, ami-42ac2e55	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-PERCONA5.6.30-v6	2016-07-14T16:22:09.000Z
+
+secure-route-integ, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-route-prod, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-route-stage, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-scheduler-prod, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-scheduler-stage, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-tasks-production, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+secure-tasks-staging, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+secure-track-prod, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-track-stage, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-traffics-prod, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+secure-traffics-stage, ami-2613e24b	ADH-HVM-JAVA7_NTP_POSTFIX_TOMCAT7_APACHE2_MODJK-2Q16	2016-05-26T15:09:58.000Z
+
+sem-scripts-staging, ami-ecb83efa	ami_product_repo	2017-04-03T14:49:12.000Z
+
+stampr-prod, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+stampr-staging, ami-1d2bb70b	1604-nginx-passenger-v1	2017-04-21T15:41:26.000Z
+
+stax-loader-production, ami-f66f4f9c	ADH-HVM-PyPhusion-R215-v9	2016-01-23T16:50:41.000Z
+
+stax-loader-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+stax-production, ami-a3c1f7c9	ADH-HVM-PyPhusion-R215-v10	2016-02-17T21:13:09.000Z
+
+stax-staging, ami-95d0dc82	ADH-HVM-PyPhusion-R215-v16	2016-12-13T19:51:30.000Z
+
+syseng-common-prod-asgtest-1, ami-d460a8c2	EVQT-HVM-Python27-v6	2017-02-16T19:05:48.000Z
+
+taboola-asserter-staging, ami-9bf6d6f1	evqt-flask-python-ami-v5	2016-01-24T20:33:48.000Z
+
+traffic-bandit-simulations-staging, ami-0e0e8f18	traffic-bandit-simulation-prod-4/4/16	2017-04-04T14:47:23.000Z
+
+turbine-staging, 
+
+uber-app-staging-v0, ami-d460a8c2	EVQT-HVM-Python27-v6	2017-02-16T19:05:48.000Z
+
+uber-worker-staging, ami-d460a8c2	EVQT-HVM-Python27-v6	2017-02-16T19:05:48.000Z
+
+yoda-dev, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+yoda-prod, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z
+
+yoda-staging, ami-b9c03cd4	evqt-hvm-tomcat-v2	2016-06-02T21:15:38.000Z

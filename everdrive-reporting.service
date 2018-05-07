@@ -1,0 +1,13 @@
+[Unit]
+Description=Pull EverDrive data
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /evq/apprunner/everdrive-reporting/scripts/worker.py 
+Restart=always
+User=apprunner
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
