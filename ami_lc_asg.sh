@@ -17,9 +17,9 @@ for GROUP_AND_CONFIG in $(echo "$ALL_AUTOSCALING_GROUPS_AND_CONFIGS"); do
     # put just the autoscaling group into a variable
     ASG=$(echo "$GROUP_AND_CONFIG" | awk '{print $1}')
 
-    # put just the launch confiruation into its own variable
+    # put just the launch configuration into its own variable
     LAUNCH_CONFIG=$(echo "$GROUP_AND_CONFIG" | awk '{print $2'})
-    #echo -e "\nthe autoscaling group $ASG is using the $LAUNCH_CONFIG launch config"
+    echo -e "\nthe autoscaling group $ASG is using the $LAUNCH_CONFIG launch config"
 
     # ami launch config
     LAUNCH_CONFIG_AMI=$(echo "$ALL_LAUNCH_CONFIGURATIONS_AND_AMIS" | grep $LAUNCH_CONFIG| awk '{print $2}')
