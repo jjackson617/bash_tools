@@ -8,7 +8,7 @@ IFS=$'\n'
 ALL_ELB_DATA=$(aws elb describe-load-balancers --query 'LoadBalancerDescriptions[*].[DNSName,LoadBalancerName,Scheme]' --output text)
 
 
-# line all this shit up
+# line it all up
 
     for i in $(echo "$ALL_ELB_DATA"); do 
     ELB=$(echo "$i" | awk '{print $1}')
