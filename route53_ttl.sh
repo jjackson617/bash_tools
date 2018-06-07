@@ -12,8 +12,7 @@ for HOST in $(echo "$HOSTED_ZONES"); do
     #Hostzone ID
     HOST_ID=$(echo "$HOST"  | tr -d ' "/hostedzone,[]'| sed '/^\s*$/d')
     echo "$DOMAIN has $HOST_ID"
-
-
+done
 
 
 
